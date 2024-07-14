@@ -4,7 +4,6 @@ var book;
 
 book = {};
 
-
 /* Further Adventures
  *
  * 1) Log book to the console.
@@ -20,3 +19,17 @@ book = {};
  *    to the outcome.
  *
  */
+
+// 1) Log book to the console
+console.log(book);
+
+// 2) Adding extra lines between the curly braces
+book = {
+    
+    
+
+};
+
+/* 3) Run the program again, logging book to the console.
+   The extra lines should make no difference to the outcome. */
+console.log(book);

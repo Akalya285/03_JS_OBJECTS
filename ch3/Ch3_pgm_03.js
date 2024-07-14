@@ -3,14 +3,12 @@
 var book;
 
 book = {
-    title : "The Hobbit",
-    author : "J. R. R. Tolkien",
-    published : 1937
+    title: "The Hobbit, or There and Back Again",
+    author: "J. R. R. Tolkien",
+    published: 1937
 };
 
 console.log(book);
-
-
 
 /* Further Adventures
  *
@@ -23,3 +21,15 @@ console.log(book);
  * 3) Log book2 to the console.
  *
  */
+
+// 2) Create a book2 object
+var book2;
+
+book2 = {
+    title: "1984",
+    author: "George Orwell",
+    published: 1949
+};
+
+// 3) Log book2 to the console
+console.log(book2);

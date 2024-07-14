@@ -6,10 +6,10 @@ var bookName;
 bookName = "The Adventures of Tom Sawyer";
 
 book = {
-    title : bookName
+    title: bookName
 };
 
-
+console.log(book);
 
 /* Further Adventures
  *
@@ -26,3 +26,11 @@ book = {
  *    and try steps 1 and 2 again.
  *
  */
+
+// 3) Change the value of the bookName variable
+bookName = "Pride and Prejudice";
+
+// Update the book object with the new bookName
+book.title = bookName;
+
+console.log(book);

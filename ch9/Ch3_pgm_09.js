@@ -2,21 +2,31 @@
 
 var book1;
 var book2;
+var book3;
 
 book1 = {
-	title: "The Hobbit",
-	author: "J. R. R. Tolkien"
+    title    : "The Hobbit",
+    author   : "J. R. R. Tolkien",
+    published: 1937
 };
 
 book2 = {
-	title: "Northern Lights",
-	author: "Philip Pullman"
+    title    : "Northern Lights",
+    author   : "Philip Pullman",
+    published: 1995
 };
 
-console.log(book1.title + " by " + book1.author);
-console.log(book2.title + " by " + book2.author);
+// 1) Add a third book
+book3 = {
+    title    : "The Adventures of Tom Sawyer",
+    author   : "Mark Twain",
+    published: 1876
+};
 
-
+// 2) Log its details to the console
+console.log(book1.title + " by " + book1.author + ", published in " + book1.published);
+console.log(book2.title + " by " + book2.author + ", published in " + book2.published);
+console.log(book3.title + " by " + book3.author + ", published in " + book3.published);
 
 /* Further Adventures
  *

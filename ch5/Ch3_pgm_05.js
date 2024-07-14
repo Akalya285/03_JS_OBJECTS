@@ -3,10 +3,21 @@
 var book;
 
 book = {
-    title : "The Hobbit"
+    title: "The Hobbit"
 };
 
+// 1) Log book to the console
+console.log(book);
 
+// 2) Create a second book
+var book2;
+
+book2 = {
+    title: "1984"
+};
+
+// 3) Log book2 to the console
+console.log(book2);
 
 /* Further Adventures
  *
@@ -20,5 +31,4 @@ book = {
  *    In the console tab, click after the prompt, >.
  *    Type book and press Enter.
  *    The book object should be displayed.
- *
  */
